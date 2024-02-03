@@ -1,0 +1,27 @@
+#container{
+    font-family: "Arial";
+    position:relative;
+    overflow-x:auto;
+  }
+  #timeList{
+     background-color: black;
+    overflow-y:auto;
+    padding-top:5px;
+  }
+  #timeOut{
+    font-size: 5em;
+     background-color: black;
+  }
+  body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url("https://elements-video-cover-images-0.imgix.net/files/241869498/Rubiks+Cube+Preview.jpg?auto=compress&h=630&w=1200&fit=crop&crop=edges&fm=jpeg&s=58191ad016e368c745963b46b1735a9f");
+    font-weight: bold;
+  }
+  #scram {
+    background-color: black;
+  }
+  #stats {
+    background-color: black;
+  }
