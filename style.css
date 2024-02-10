@@ -4,13 +4,14 @@
     overflow-x:auto;
   }
   #timeList{
-     background-color: black;
+     background-color: rgb(0, 0, 0);
     overflow-y:auto;
     padding-top:5px;
   }
   #timeOut{
     font-size: 5em;
-     background-color: black;
+     background-color: rgb(0, 0, 0);
+     border: 5px solid black;
   }
   body {
     background-color: black;
@@ -20,14 +21,14 @@
     font-weight: bold;
   }
   #scram {
-    background-color: black;
+    background-color: rgb(0,0,0);
   }
   #stats {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
   }
   #rightbutton {
     position: absolute;
-    top: 30px;
+    top: 45px;
     right: 80px;
     width: 100px;
     height: 100px;
@@ -35,7 +36,7 @@
   }
   #leftbutton {
     position: absolute;
-    top: 30px;
+    top: 45px;
     left: 80px;
     width: 100px;
     height: 100px;
