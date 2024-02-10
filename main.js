@@ -49,8 +49,6 @@ function timer() {
   }
 
 }
-window.onkeyup = run;
-window.onclick = run;
 
 function run() {
   if (!running) {
@@ -58,7 +56,7 @@ function run() {
     sec = 0;
     min = 0;
     cs = 0;
-    secOut.innerHTML = "0";
+    secOut.innerHTML = "";
     minOut.innerHTML = "";
     colon.innerHTML = "";
     running = true;
@@ -124,6 +122,7 @@ function generateScramble() {
 clearAll.onclick = clearTimes;
 
 function clearTimes() {
+  generateScramble();
   numSolves = 0;
   numSolvesOut.innerHTML = "Solves: " + numSolves;
   best = 99999999999;
@@ -131,9 +130,16 @@ function clearTimes() {
   worst = 0;
   avAll = 0;
   total = 0;
+  secOut.innerHTML = "";
+  minOut.innerHTML = "";
+  colon.innerHTML = "";
+  decimal.innerHTML = "";
   avAllOut.innerHTML = "Mean: ";
   timesDisplay = [];
   csTimes = [];
+
+  decimalOut.textContent = "00";
+    
   timesList.innerHTML = timesDisplay;
 }
 
