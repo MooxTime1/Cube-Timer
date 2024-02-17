@@ -187,3 +187,4 @@ function formatTime(t) {
   out = "" + m + s + "." + c;
   return out;
 }
+// credit to yzwsvzzolk on codepen for most of the js
